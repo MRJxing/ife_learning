@@ -1,0 +1,24 @@
+
+html{
+    font-family: 'Gochi Hand', cursive;
+}
+
+h1{
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+h2{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+p{
+    line-height: 1.3;
+}
+.profile{
+
+}
+ol {
+    list-style-type: upper-roman;
+}
