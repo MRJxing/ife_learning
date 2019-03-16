@@ -1,0 +1,21 @@
+
+section{
+    border: 1px solid #00BEA5;
+    overflow: hidden;
+}
+
+article{
+    float: left;
+    border: 2px solid grey;
+    background: #1b6d85;
+}
+#left{
+    width:200px;
+    box-sizing: border-box;
+
+}
+#right{
+    float: right;
+    width: calc(100% - 200px);
+    box-sizing: border-box;
+}

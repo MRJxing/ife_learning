@@ -1,0 +1,15 @@
+
+section{
+    border: 1px solid #00BEA5;
+    overflow: hidden;
+}
+
+article{
+    float: left;
+}
+#left{
+    width: 30%;
+}
+#right{
+    width: 70%;
+}

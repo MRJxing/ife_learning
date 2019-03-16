@@ -1,0 +1,8 @@
+b{
+
+    margin-right: 5px;
+}
+
+[class*=value]{
+    margin-right: 30px;
+}

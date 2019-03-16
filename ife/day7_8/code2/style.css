@@ -1,0 +1,202 @@
+html, body{
+    height: 100%;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*head style*/
+.head{
+    background: #333333;
+    position: sticky;
+    top: 0;
+    height: 80px;
+    /*下拉时始终处于前景位置*/
+    z-index: 1;
+}
+
+.head span{
+    position: relative;
+    font-weight: bold;
+    color: white;
+    left: 15%;
+    top: 20px;
+    font-size: 20px;
+}
+
+.links{
+    position: absolute;
+    top: 0;
+    right: 15%;
+
+}
+.links a{
+    color: white;
+}
+
+
+
+/*banner style*/
+.banner{
+    background: forestgreen;
+    height: 30%;
+
+
+}
+
+.banner section{
+    display: flex;
+    position: relative;
+    top: 80%;
+    left: 80%;
+    align-items: center;
+    justify-content: space-around;
+    width: 135px;
+    height: 40px;
+}
+
+.banner section span {
+
+    display: inline-block;
+    box-sizing: border-box;
+    width: 30px;
+    text-align: center;
+    line-height: 35px;
+    background-color: #e0f1d6;
+    border:  1px solid #4e595d;
+    opacity: 0.5;
+}
+.banner span:nth-child(2){
+    opacity: 1;
+    line-height: 50px;
+    vertical-align: super}
+
+
+
+
+.nav{
+    box-sizing: border-box;
+    height: 70px;
+    border:  1px solid rgb(221, 221, 221) ;
+    position: relative;
+}
+.nav ul{
+    position: absolute;
+    left: 15%   ;
+    bottom: 0;
+}
+.nav li{
+    box-sizing: border-box;
+    float: left;
+    background: rgb(238,238,238);
+    display: inline-block;
+    border: 1px solid rgb(211,211,211);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom:1px solid  rgb(238,238,238);
+    width: 106px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 24px;
+}
+section ul .active{
+    background: white;
+    border-bottom:2px solid white;
+
+}
+
+
+/*content part*/
+
+.content{
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 5px;
+}
+
+.items{
+    display: flex;
+    height: 175px;
+    justify-content:space-between;
+    margin: 5px 0;
+}
+
+.items :nth-child(1){
+    margin-left: 0;
+
+}
+
+
+/*利用line-height设置文本对齐*/
+article {
+    flex: 1 0 200px;
+    border: 1px solid rgb(221, 221, 221);
+    text-align: center;
+    font-size: 0;
+    line-height: 130px;
+    padding-right: 5px;
+
+    margin: 0 5px;
+}
+
+article span{
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: middle;
+    line-height: 1.4em;
+}
+
+
+
+
+footer{
+    margin-top: 15px;
+    height: 120px;
+    text-align: center;
+    background: rgb(102, 102, 102);
+}
+
+footer p{
+    padding-top: 30px;
+}
+
+
+
+
+
+/*hype link*/
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:focus{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+}
+
+
+
+/*清除浮动*/
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.clearfix{
+    *zoom:1;
+}

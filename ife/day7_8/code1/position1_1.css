@@ -1,0 +1,26 @@
+section{
+    border: 1px solid #00FF00;
+    margin: 20px auto;
+    position: relative;
+    background: grey;
+    width: 80%;
+}
+
+article{
+    border: 1px solid red;
+    background: #0000FF;
+}
+#left{
+    box-sizing: border-box;
+    width: 30%;
+    display: inline-block;
+    height: 200px;
+}
+#right{
+    position:absolute;
+    width: 70%;
+    left: 30%;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 200px;
+}

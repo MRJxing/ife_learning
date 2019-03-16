@@ -1,0 +1,25 @@
+section{
+    display: flex;
+    background: #1b6d85;
+    flex-flow: row wrap;
+    border: 2px solid yellow;
+}
+
+section article{
+    text-align: center;
+    background: rebeccapurple;
+    border: 1px dotted black;
+}
+
+
+section #left{
+    box-sizing: border-box;
+    flex: 1 0 30px;
+    min-width: 300px;
+    max-width: 300px;
+
+}
+section #right{
+    box-sizing:  border-box;
+    flex: 1 0 70px
+}

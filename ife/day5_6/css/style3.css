@@ -1,0 +1,67 @@
+
+b{
+    margin-right: 1rem;
+}
+span{
+    margin-right: 3rem;
+}
+
+/*小标题为h3结尾的span*/
+[class$=h3]{
+    font-weight: bold;
+    font-size: 1rem;
+    margin-right: 1rem;
+    text-indent: 10px;
+    margin-left: 10px;
+}
+
+.left-menu{
+    width: 80%;
+    background-color: grey;
+    margin: 0 auto;
+    text-indent: 20px;
+    box-sizing: border-box;
+    padding-top: 2vh;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    height: 10vh;
+    min-height: 32px;
+
+}
+
+
+.description{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.info-row{
+    margin-bottom: 1px;
+    height: 10vh    ;
+    min-height: 55px;
+}
+
+.left-table{
+    margin: 0;
+    float: left;
+    width: 10%;
+    background-color: #9DBCCF;
+    text-align: center;
+//margin-bottom: 1px;
+    font-weight: bold;
+    font-size: 1.5em;
+    height: 100% ;
+}
+
+.content{
+    width: 70% ;
+    display: inline-block;
+}
+
+
+p{
+    display: inline-block;
+    text-align: left;
+    text-indent: 10px;
+
+}
