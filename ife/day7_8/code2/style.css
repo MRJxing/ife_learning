@@ -51,7 +51,7 @@ html, body{
     position: relative;
     top: 80%;
     left: 80%;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-around;
     width: 135px;
     height: 40px;
@@ -70,8 +70,8 @@ html, body{
 }
 .banner span:nth-child(2){
     opacity: 1;
-    line-height: 50px;
-    vertical-align: super}
+    padding-top: 5px;
+}
 
 
 
@@ -85,7 +85,7 @@ html, body{
 .nav ul{
     position: absolute;
     left: 15%   ;
-    bottom: 0;
+    bottom: -1px;/*下移来覆盖（使第一个下边框为“空白”）*/
 }
 .nav li{
     box-sizing: border-box;
@@ -95,7 +95,7 @@ html, body{
     border: 1px solid rgb(211,211,211);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    border-bottom:1px solid  rgb(238,238,238);
+    border-bottom:1px solid  rgb(238,238,238);  /* 下移整个ul时，将其他没覆盖的两个li设为原来的颜色，避免用其他颜色覆盖掉*/
     width: 106px;
     text-align: center;
     line-height: 40px;
@@ -103,7 +103,7 @@ html, body{
 }
 section ul .active{
     background: white;
-    border-bottom:2px solid white;
+    border-bottom:1px solid white;
 
 }
 
