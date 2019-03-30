@@ -126,7 +126,7 @@ div#page1 .content{
     width: 800px  ;
 
 }
-.page2_list{
+.page2_list {
     display: flex;
     width: 1100px;
     flex-flow: row wrap;
